@@ -19,13 +19,13 @@ http://music-tech.cs.nthu.edu.tw/
 請安裝python3及套件mutagen、youtube_dl  
 ```pip install mutagen youtube_dl```
 
-###1.下載音樂mp3
+### 1.下載音樂mp3  
 ```python mp3/download_by_list.py```
 
-###2.取得音樂長度
+### 2.取得音樂長度  
 ```python meta_data/music_length.py```
 
-###3.將tag縮放至適合分析的frame size，產生資料集
+### 3.將tag縮放至適合分析的frame size，產生資料集  
 ```python meta_data/sparse_to_dense.py```
 
-資料生成在csv資料夾中
+資料生成在csv資料夾中  
